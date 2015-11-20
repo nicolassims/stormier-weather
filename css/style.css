@@ -1,0 +1,50 @@
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, img, ins, kbd, q, s, samp, small, strike, strong, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: #f35400;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+#WhiteBox {
+    border: 7px solid rgba(255, 249, 221, 0.8);
+    max-width: 60%;
+    max-height: 90%;
+    height: 50%;
+    width: 26%;
+    margin: 1% 25% 5% 25%;
+    padding: 10% 10% 30% 10%;
+}
+
+#Instructions {
+    color: #ffffff;
+    font-family: Impact;
+    text-align: center;
+    font-size: 180%;
+    line-height: 50px;
+}
+
