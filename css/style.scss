@@ -1,0 +1,23 @@
+@import 'reset';
+
+#WhiteBox {
+    border: 7px solid rgba(255, 249, 221, 0.8);
+    max-width: 60%;
+    max-height: 90%;
+    height: 50%;
+    width: 26%;
+    margin: 1% 25% 5% 25%;
+    padding: 10% 10% 30% 10%;
+}
+
+#Instructions {
+    color: #ffffff;
+    font-family: Impact;
+    text-align: center;
+    font-size: 180%;
+    line-height: 50px;
+}
+
+#Eaglogo {
+    position: absolute;
+}
