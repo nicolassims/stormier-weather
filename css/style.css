@@ -4,8 +4,7 @@ html, body, div, span, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acro
   border: 0;
   outline: 0;
   font-size: 100%;
-  vertical-align: baseline;
-  background: #f35400; }
+  vertical-align: baseline; }
 
 body {
   line-height: 1; }
@@ -24,32 +23,22 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-#WhiteBox {
+.header {
   position: absolute;
-  border: 7px solid rgba(255, 249, 221, 0.8);
-  max-width: 100%;
-  max-height: 100%;
+  color: #000000;
+  font-family: "Trebuchet MS";
+  text-align: left;
+  left: 2%; }
+
+#threeHundred {
+  position: absolute;
+  color: #8e0006;
+  min-height: 20%;
+  min-width: 20%; }
+
+.bodyText {
+  position: absolute;
   top: 10%;
-  right: 30%;
-  bottom: 10%;
-  left: 30%; }
-
-#Instructions {
-  position: absolute;
-  color: #ffffff;
-  font-family: Impact;
-  text-align: center;
-  font-size: 180%;
-  line-height: 50px;
-  top: 20%;
-  right: 10%;
-  bottom: 10%;
-  left: 10%; }
-
-#Eaglogo {
-  position: absolute;
-  top: 80%;
-  left: 65%;
-  height: 20%; }
+  font-family: "Georgia"; }
 
 /*# sourceMappingURL=style.css.map */
