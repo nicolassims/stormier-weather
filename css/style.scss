@@ -1,22 +1,55 @@
 @import 'reset';
 
+body {
+  background: linear-gradient(darkred, black) no-repeat top;
+  background-size: cover;
+  min-height: 100%;
+}
+
 .header {
-  position: absolute;
   color: #000000;
   font-family: "Trebuchet MS";
   text-align: left;
   left: 2%;
+  font-size: 300%;
+}
+
+#blackBox {
+  background-color: white;
+  margin: 5% 10% 5% 10%;
+  border: solid black 4px;
+  text-align: justify;
+  left: 10%;
+  top: 10%;
+  padding: 3% 5% 3% 5%;
+}
+
+#bigHeader {
+  float: left;
 }
 
 #threeHundred {
-  position: absolute;
-  color: #8e0006;
+  color: #c50006;
   min-height: 20%;
   min-width: 20%;
 }
 
+#smallHeader {
+  min-height: 20%;
+  min-width: 20%;
+  font-size: 50%;
+  font-weight: bold;
+}
+
+#publishDate {
+  min-height: 20%;
+  min-width: 20%;
+  font-size: 25%;
+  font-weight: bold;
+  top: 180%;
+}
+
 .bodyText {
-  position: absolute;
-  top: 10%;
+  top: 15%;
   font-family: "Georgia";
 }
