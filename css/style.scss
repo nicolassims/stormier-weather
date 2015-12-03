@@ -10,8 +10,18 @@ body {
   color: #000000;
   font-family: "Trebuchet MS";
   text-align: left;
-  left: 2%;
   font-size: 300%;
+}
+
+.bodyParagraph {
+  margin: 2% 0 2% 0;
+  line-height: 30px;
+  font-weight: bold;
+}
+
+.bodyText {
+  font-family: "Georgia";
+  font-weight: bold;
 }
 
 #blackBox {
@@ -19,8 +29,6 @@ body {
   margin: 5% 10% 5% 10%;
   border: solid black 4px;
   text-align: justify;
-  left: 10%;
-  top: 10%;
   padding: 3% 5% 3% 5%;
 }
 
@@ -39,17 +47,38 @@ body {
   min-width: 20%;
   font-size: 50%;
   font-weight: bold;
+  margin: 2% 2% 2% 0;
 }
 
 #publishDate {
   min-height: 20%;
   min-width: 20%;
   font-size: 25%;
-  font-weight: bold;
-  top: 180%;
+  margin: 2% 2% 2% 0;
 }
 
-.bodyText {
-  top: 15%;
-  font-family: "Georgia";
+#comparison {
+  float: right;
+  margin-top: 5%;
+}
+
+#xerxes {
+  float: left;
+  margin-top: 5%;
+  margin-right: 2%;
+}
+
+#quote {
+  margin: 2% 2% 2% 5%;
+}
+
+#noKill {
+  font-weight: bold;
+  font-size: 80%;
+  line-height: 15px;
+}
+
+#cliff img {
+  float: bottom;
+  min-width: 100%;
 }
