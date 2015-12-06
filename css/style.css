@@ -24,9 +24,38 @@ table {
   border-spacing: 0; }
 
 body {
-  background-image: url(../images/stormy-weather-background.jpg);
-  background-size: cover;
-  max-width: 100%;
-  height: auto; }
+  background: url(../images/stormy-weather-background.jpg) no-repeat;
+  background-size: 100% 120%;
+  color: #ffffff;
+  font-family: 'Oxygen', Arial; }
+
+#shadowBox {
+  float: top;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 3% 0 3% 3%;
+  font-size: 300%;
+  font-weight: bold; }
+
+.bodyText {
+  font-weight: bold;
+  margin: 2% 2% 2% 5%;
+  line-height: 30px;
+  font-size: 130%; }
+
+.icons img {
+  float: right;
+  margin: -3% 1% 2% 0;
+  width: 3%;
+  color: #ffffff; }
+
+#bodyBox {
+  background-color: rgba(0, 0, 0, 0.6);
+  border: double white 7px;
+  float: left;
+  width: 20%;
+  min-width: 200px;
+  margin: 3% 0 0 3%;
+  padding: 1% 2% 3% 2%;
+  overflow: hidden; }
 
 /*# sourceMappingURL=style.css.map */
