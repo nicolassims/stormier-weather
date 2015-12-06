@@ -44,8 +44,8 @@ body {
 
 .icons {
   float: right;
-  margin: -3% 1% 2% 0;
-  width: 3%; }
+  margin: -5% 3% 2% 0;
+  width: 2%; }
 
 #largeButton {
   background-image: url("../images/display.png"); }
@@ -54,7 +54,7 @@ body {
   background-image: url("../images/tablet.png"); }
 
 #smallButton {
-  background-image: url("../images/mobile2.png");}
+  background-image: url("../images/mobile2.png"); }
 
 #bodyBox {
   background-color: rgba(0, 0, 0, 0.6);
