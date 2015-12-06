@@ -42,11 +42,19 @@ body {
   line-height: 30px;
   font-size: 130%; }
 
-.icons img {
+.icons {
   float: right;
   margin: -3% 1% 2% 0;
-  width: 3%;
-  color: #ffffff; }
+  width: 3%; }
+
+#largeButton {
+  background-image: url("../images/display.png"); }
+
+#medButton {
+  background-image: url("../images/tablet.png"); }
+
+#smallButton {
+  background-image: url("../images/mobile2.png");}
 
 #bodyBox {
   background-color: rgba(0, 0, 0, 0.6);

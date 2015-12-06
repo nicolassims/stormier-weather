@@ -22,11 +22,22 @@ body {
   font-size: 130%;
 }
 
-.icons img{
+.icons {
   float: right;
   margin: -3% 1% 2% 0;
   width: 3%;
-  color: #ffffff;
+}
+
+#largeButton {
+  background-image: url("../images/display.png");
+}
+
+#medButton {
+  background-image: url("../images/tablet.png");
+}
+
+#smallButton {
+  background-image: url("../images/mobile2.png");
 }
 
 #bodyBox {
