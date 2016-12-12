@@ -1,0 +1,63 @@
+@import "reset";
+
+body {
+  background: url(../images/stormy-weather-background.jpg) no-repeat center center fixed;
+  background-size: cover;
+  color: #ffffff;
+  font-family: 'Oxygen', Arial;
+}
+
+.bodyText {
+  font-weight: bold;
+  margin: 10% 2% 2% 5%;
+  line-height: 30px;
+  font-size: 130%;
+}
+
+#shadowBox {
+  float: top;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 1% 0 2% 3%;
+  font-size: 300%;
+  font-weight: bold;
+}
+
+#bodyBox {
+  background-color: rgba(0, 0, 0, 0.6);
+  border: double white 7px;
+  float: left;
+  width: 20%;
+  min-width: 200px;
+  margin: 3% 0 7% 3%;
+  padding: 1% 2% 3% 2%;
+  overflow: hidden;
+}
+
+#smallButton {
+  position: absolute;
+  right: 100px;
+  top: 2.5%;
+  @media (max-width: 0px) {
+    filter: brightness(500%);
+  }
+}
+
+#medButton {
+  position: absolute;
+  right: 60px;
+  top: 2.5%;
+  @media (max-width: 768px) {
+    filter: brightness(500%);
+  }
+}
+
+#largeButton {
+  position: absolute;
+  right: 20px;
+  top: 2.5%;
+  @media (min-width: 1024px) {
+    filter: brightness(500%);
+  }
+}
+
+/*1366*/
