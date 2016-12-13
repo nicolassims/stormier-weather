@@ -32,15 +32,27 @@ body {
 .bodyText {
   font-weight: bold;
   margin: 10% 2% 2% 5%;
-  line-height: 30px;
-  font-size: 130%; }
+  line-height: 30px; }
+  @media (min-width: 1024px) {
+    .bodyText {
+      font-size: 1.5vmax; } }
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .bodyText {
+      font-size: 1.75vmax; } }
+  @media (max-width: 767px) and (min-width: 420px) {
+    .bodyText {
+      font-size: 2.25vmax; } }
+  @media (max-width: 767px) {
+    .bodyText {
+      font-size: 2.5vmax; } }
 
 #shadowBox {
   float: top;
   background-color: rgba(0, 0, 0, 0.6);
-  padding: 1% 0 2% 3%;
-  font-size: 300%;
-  font-weight: bold; }
+  padding: 2vh 0 2vw 4vw;
+  font-size: 4vw;
+  font-weight: bold;
+  height: 7vh; }
 
 #bodyBox {
   background-color: rgba(0, 0, 0, 0.6);
@@ -48,7 +60,7 @@ body {
   float: left;
   width: 20%;
   min-width: 200px;
-  margin: 3% 0 7% 3%;
+  margin: 3% 0 0 3%;
   padding: 1% 2% 3% 2%;
   overflow: hidden; }
 
@@ -75,7 +87,5 @@ body {
   @media (min-width: 1024px) {
     #largeButton {
       filter: brightness(500%); } }
-
-/*1366*/
 
 /*# sourceMappingURL=style.css.map */

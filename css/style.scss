@@ -11,15 +11,27 @@ body {
   font-weight: bold;
   margin: 10% 2% 2% 5%;
   line-height: 30px;
-  font-size: 130%;
+  @media (min-width: 1024px) {
+    font-size: 1.5vmax;
+  }
+  @media (min-width: 768px) and (max-width: 1023px) {
+    font-size: 1.75vmax;
+  }
+  @media (max-width: 767px) and (min-width: 420px) {
+    font-size: 2.25vmax;
+  }
+  @media (max-width: 767px) {
+    font-size: 2.5vmax;
+  }
 }
 
 #shadowBox {
   float: top;
   background-color: rgba(0, 0, 0, 0.6);
-  padding: 1% 0 2% 3%;
-  font-size: 300%;
+  padding: 2vh 0 2vw 4vw;
+  font-size: 4vw;
   font-weight: bold;
+  height: 7vh;
 }
 
 #bodyBox {
@@ -28,7 +40,7 @@ body {
   float: left;
   width: 20%;
   min-width: 200px;
-  margin: 3% 0 7% 3%;
+  margin: 3% 0 0 3%;
   padding: 1% 2% 3% 2%;
   overflow: hidden;
 }
@@ -59,5 +71,3 @@ body {
     filter: brightness(500%);
   }
 }
-
-/*1366*/
